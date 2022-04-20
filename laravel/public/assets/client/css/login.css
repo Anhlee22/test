@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+
+label{
+    color: white;
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+.login-text{
+    color: white;
+}
+
+.back-home{
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,227 @@
+a{
+    text-decoration: none;
+}
+
+.container_item a{
+    color: black;
+}
+
+.container_item:hover a{
+    text-decoration: none;
+    color: black;
+}
+
+.item_slidebar{
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+}
+
+.item_slidebar:hover{
+    background-color: rgba(0, 0, 0, 0.742);
+}
+
+.item img{
+    width: 100%;
+}
+
+.item_detail img{
+    width: 80%;
+}
+
+.item{
+    cursor: pointer;
+    transform: scale(.95);
+}
+
+.item:hover{
+    transform:scale(1);
+    transition: all .3s;
+}
+
+.inf div{
+    margin-top: 8px;
+}
+
+.item_header:hover{
+    background-color: black !important;
+}
+
+.detail_text{
+    margin-top: 18px;
+    font-size:25px;
+    padding-left: 30px;
+}
+
+.add_cart{
+    color: black;
+    background-color: white;
+    /* background-color: rgba(212, 136, 103, 0.484); */
+    width: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(.95);
+}
+
+.add_cart button{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+
+.add_cart:hover{
+    color: white;
+    background-color: rgba(212, 136, 103, 0.604);
+    width: 50%;
+    transform:scale(1);
+    transition: all .3s;
+}
+
+.add_cart p{
+    font-size: 25px;
+}
+
+.add_cart ion-icon{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.input-qty {
+    background-color:#fff;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+
+.is-form{
+    height:40px;
+    background-color: white;
+    border:1px solid #ddd;
+}
+
+.btn_save{
+    border: 0;
+    background-color: transparent;
+}
+
+.img_pro{
+    height:250px;
+    width:220px;
+}
+
+.heart_null{
+    display:block;
+}
+
+.heart_full{
+    display:none;
+}
+
+.img img{
+    width: 350px;
+    height: 530px;
+    cursor: pointer;
+}
+
+.inf_item{
+    font-size:28px;
+    color: rgb(97, 92, 92);
+    position: relative;
+}
+
+.inf_icon{
+    margin-top:5px;
+    padding-right: 20px;;
+}
+
+.inf_item p{
+    position: absolute;
+    left: 30%;
+}
+
+.form_input{
+    margin-left: 100px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.btn_edit{
+    padding:8px 12px;
+    background-color: rgb(155, 151, 151);
+    width: 120px;
+    margin-left: 100px;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_edit a{
+    color: white;
+}
+
+.btn_edit:hover{
+    background-color: rgb(85, 81, 81);
+}
+
+.btn_edit:hover a{
+    color: white;
+    text-decoration:none;
+}
+
+.active{
+    background-color:rgb(54, 53, 53);
+}
+
+.btn_order{
+    padding: 6px 10px;
+    background-color: rgba(251, 148, 58, 0.796);
+    border-radius: 35px;
+    width: 90px;
+    text-align: center;
+    border:0;
+    margin-left: 90px;
+}
+
+.btn_order a{
+    color: white;
+}
+
+.btn_order:hover{
+    background-color: rgba(251, 132, 28, 0.897);
+}
+
+.btn_order:hover a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn_savene{
+    background-color:rgb(162, 181, 54);
+    width: 80px;
+    padding: 5px 1px;
+    color: white;
+    border-radius:35px;
+    margin-top:90px;
+    cursor: pointer;
+}
+
+.btn_savene:hover{
+    background-color:rgb(113, 126, 38);
+}
+
+.errors{
+    font-size:20px;
+    padding-top: 10px;
+}
